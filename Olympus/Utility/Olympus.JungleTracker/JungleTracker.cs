@@ -155,13 +155,13 @@ namespace Olympus.JungleTracker
             new JungleCamp // top side crab
             (
                 new Vector3(4452.812f, 9541.812f, -65.5869f),
-                120000,
+                150000,
                 new[] { "Sru_Crab16.1.1" }
             ),
             new JungleCamp // bot side crab
             (
                 new Vector3(10452.96f, 5213.525f, -62.8102f),
-                120000,
+                150000,
                 new[] { "Sru_Crab15.1.1" }
             ),
             new JungleCamp // dragon water
