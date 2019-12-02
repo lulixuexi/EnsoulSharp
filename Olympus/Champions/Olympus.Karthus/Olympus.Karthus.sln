@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olympus.Karthus", "Olympus.Karthus.csproj", "{72A3708B-6DDB-4A4B-BFF6-74CF90AB3293}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72A3708B-6DDB-4A4B-BFF6-74CF90AB3293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A3708B-6DDB-4A4B-BFF6-74CF90AB3293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A3708B-6DDB-4A4B-BFF6-74CF90AB3293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A3708B-6DDB-4A4B-BFF6-74CF90AB3293}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5706AB03-7AD6-4AAB-B0B7-D09D0BD1E60A}
+	EndGlobalSection
+EndGlobal
