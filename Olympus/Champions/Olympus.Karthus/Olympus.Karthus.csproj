@@ -52,7 +52,7 @@
       <HintPath>C:\Users\Konrad\Desktop\EnsoulSharp\System\SharpDX.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.Direct3D9">
-      <HintPath>..\EnsoulSharp\System\SharpDX.Direct3D9.dll</HintPath>
+      <HintPath>C:\Users\Konrad\Desktop\EnsoulSharp\System\SharpDX.Direct3D9.dll</HintPath>
     </Reference>
     <Reference Include="SPrediction">
       <HintPath>C:\Users\Konrad\Desktop\EnsoulSharp\System\SPrediction.dll</HintPath>

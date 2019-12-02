@@ -917,8 +917,8 @@ namespace Olympus.Karthus
         {
             public static MenuBool AA = new MenuBool("AA", "Disable AutoAttack");
             public static MenuBool AALackOfMana = new MenuBool("AALackOfMana", "If No Mana (100) allow Use AA");
-            public static MenuList Prediction = new MenuList("Prediction", "Select Prediction:", new[] { "SPrediction (don't work for now)", "Common Prediction" });
-            public static MenuList QHitChance = new MenuList("QHitChance", "Hitchance:", new[] { "Low", "Medium", "High", "VeryHigh", "Immobile" }, 2);
+            public static MenuList Prediction = new MenuList("Prediction", "Select Prediction:", new[] { "SPrediction (don't work for now)", "Common Prediction" }, 1);
+            public static MenuList QHitChance = new MenuList("QHitChance", "Hitchance:", new[] { "Low", "Medium", "High", "VeryHigh", "Immobile" }, 3);
             public static MenuBool UseE = new MenuBool("UseE", "Use E");
             public static MenuBool UseQ = new MenuBool("UseQ", "Use Q");
             public static MenuBool UseW = new MenuBool("UseW", "Use W");
@@ -973,14 +973,14 @@ namespace Olympus.Karthus
 
         public class LastHit
         {
-            public static MenuSlider MinMana = new MenuSlider("MinMana", "Min Mana Percent Q", 30, 0, 100);
+            public static MenuSlider MinMana = new MenuSlider("MinMana", "Min Mana Percent Q", 20, 0, 100);
             public static MenuBool UseQ = new MenuBool("UseQ", "Use Q");
         }
 
         public class Misc
         {
-            public static MenuBool AutoDisableE = new MenuBool("AutoDisableE", "AutoDisableE");
-            public static MenuBool AutoZombie = new MenuBool("AutoZombie", "AutoZombie");
+            public static MenuBool AutoDisableE = new MenuBool("AutoDisableE", "Auto Disable E");
+            public static MenuBool AutoZombie = new MenuBool("AutoZombie", "Auto Zombie");
         }
     }
 
